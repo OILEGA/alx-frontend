@@ -1,0 +1,1 @@
+Advanced CSS project entails using or creating styles to enhance or beautify our wedsite
