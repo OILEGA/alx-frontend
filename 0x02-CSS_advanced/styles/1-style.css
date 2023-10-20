@@ -1,0 +1,7 @@
+/*  making the behavior of the scroll to be fluid when scrolling is triggered */
+html{
+    scroll-behavior:smooth;
+}
+
+    
+
