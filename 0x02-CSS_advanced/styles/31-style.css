@@ -469,16 +469,11 @@ html {
 .nav-item:hover .nav-link::before {
     background-color: var(--color-primary);
     width: 100%;
-  }
-  /* ... (previous CSS rules) ... */
 
-/* Target card-outer within card-work */
 .card-work .card-outer {
     position: relative;
     overflow: hidden;
   }
-  
-  /* Target the image inside card-image inside card-work */
   .card-work .card-image img {
     height: 30rem;
     width: 100%;
@@ -486,7 +481,6 @@ html {
     vertical-align: bottom;
   }
   
-  /* Target card-inner inside card-work */
   .card-work .card-inner {
     position: absolute;
     top: -0.1rem;
@@ -494,13 +488,10 @@ html {
     right: -0.1rem;
     z-index: 1;
   }
-  
-  /* Target card-inner when card-work is hover */
   .card-work:hover .card-inner {
     background-color: rgba(0, 0, 0, 0.7);
   }
   
-  /* Target card-title inside card-work */
   .card-work .card-title {
     text-align: center;
     margin: 0;
@@ -508,16 +499,12 @@ html {
     height: 100%;
     position: relative;
   }
-  
-  /* Target the link inside card-title and card-work */
   .card-title a,
   .card-work a {
     display: block;
     text-decoration: none;
     padding-top: 45%;
   }
-  
-  /* Create the after pseudo elements of the link (inside card-title and card-work) */
   .card-title a::after,
   .card-work a::after {
     content: "";
@@ -527,17 +514,12 @@ html {
     bottom: 0;
     left: 0;
   }
-  
-  /* Target card-title when card-work is hover */
   .card-work:hover .card-title {
     opacity: 1;
   }
-  /* Target the card-quote that is inside the card-testimonial */
 .card-testimonial .card-quote {
     position: relative;
   }
-  
-  /* Target the before pseudo-element of card-quote that is inside the card-testimonial */
   .card-testimonial .card-quote::before {
     content: "\201C";
     position: absolute;
